@@ -1,6 +1,38 @@
-# 💫 About Me:
-<br>Xin chào, mình là Khánh Ngọc!<br> Hiện tại, mình đang là sinh viên năm 2, ngành Kinh doanh quốc tế, Trường Đại học Ngoại thương. <br> Ngoài việc học mình tích cự chủ động tham gia các hoạt động ngoại khóa, phong trào sinh viên và hiện mình đang là Phó ban Đối ngoại tại Social Business Creation Youth Community (SBCYC-FTU). <br> Là một sinh viên kinh tế yêu thích lập trình mình luôn bị thu hút bởi sự giao thoa giữa tư duy kinh tế và sức mạnh của công nghệ. Với niềm đam mê đặc biệt dành cho các con số và ngôn ngữ lập trình, mình đang tập trung phát triển bản thân trên lộ trình trở thành một Business Analyst chuyên nghiệp. Mình không chỉ muốn nhìn thấy những gì dữ liệu đang nói, mà còn muốn dùng công nghệ để biến những con số đó thành giải pháp thực tiễn cho doanh nghiệp. <br>
 
+<table>
+<tr>
+<td width="35%" align="center">
+
+<img src="Motivational%20Quotes%20Slow%20Living%20Watercolor%20Art.jpg" 
+     width="100%" 
+     style="border-radius:20px;" />
+
+<br><br>
+
+### 📬 Contact Me
+
+📧 **Email:** your-email@gmail.com  
+🌐 **Facebook:** [Trần Khánh Ngọc](https://facebook.com/tran.khanh.ngoc.103411)  
+💼 **LinkedIn:** [Trần Khánh Ngọc](https://linkedin.com/in/tr%E1%BA%A7n-kh%C3%A1nh-ng%E1%BB%8Dc-453a701b0/)  
+
+</td>
+
+<td width="65%">
+# 💫 About Me
+
+Xin chào, mình là **Khánh Ngọc** ✨  
+
+Hiện tại, mình là sinh viên năm 2 ngành **Kinh doanh Quốc tế** tại Trường Đại học Ngoại thương.  
+Bên cạnh việc học tập, mình chủ động tham gia các hoạt động ngoại khóa và phong trào sinh viên.  
+
+Hiện mình đang đảm nhiệm vai trò **Phó ban Đối ngoại** tại *Social Business Creation Youth Community (SBCYC – FTU)*.
+
+Là một sinh viên kinh tế yêu thích lập trình, mình đặc biệt quan tâm đến sự giao thoa giữa **tư duy kinh doanh và công nghệ**.  
+Với niềm đam mê dành cho dữ liệu và các ngôn ngữ lập trình, mình đang phát triển theo lộ trình trở thành một **Business Analyst** chuyên nghiệp.
+
+Mục tiêu của mình không chỉ là đọc hiểu dữ liệu, mà còn là chuyển hóa những con số thành **giải pháp thực tiễn tạo ra giá trị cho doanh nghiệp**.
+
+---
 
 ## 🌐 Socials:
 [![Facebook](https://img.shields.io/badge/Facebook-%231877F2.svg?logo=Facebook&logoColor=white)](https://facebook.com/https://www.facebook.com/tran.khanh.ngoc.103411/) [![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?logo=linkedin&logoColor=white)](https://linkedin.com/in/https://www.linkedin.com/in/tr%E1%BA%A7n-kh%C3%A1nh-ng%E1%BB%8Dc-453a701b0/) 
@@ -14,7 +46,9 @@
 
 ### ✍️ Quote
 " It doesn't matter how slowly you go, as long as you don't stop "
-
+<p align="center">
+  <img src="Motivational%20Quotes%20Slow%20Living%20Watercolor%20Art.jpg" width="500"/>
+</p>
 ---
 [![](https://visitcount.itsvg.in/api?id=khanhngoc2712&icon=0&color=3)](https://visitcount.itsvg.in)
 
