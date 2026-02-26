@@ -49,6 +49,8 @@ Mục tiêu của mình không chỉ là đọc hiểu dữ liệu, mà còn là
 ![](https://nirzak-streak-stats.vercel.app/?user=khanhngoc2712&theme=github_dark&hide_border=true)<br/>
 ![](https://github-readme-stats.vercel.app/api/top-langs/?username=khanhngoc2712&theme=github_dark&hide_border=true&include_all_commits=true&count_private=true&layout=compact)
 
+---
+
 ### ✍️ Quote  
 
 <p align="center">
@@ -56,7 +58,7 @@ Mục tiêu của mình không chỉ là đọc hiểu dữ liệu, mà còn là
 </p>
 
 <p align="center">
-  <img src="./Motivational Quotes Slow Living Watercolor Art.jpg" width="500"/>
+  <img src="./Motivational%20Quotes%20Slow%20Living%20Watercolor%20Art.jpg" width="500">
 </p>
 
 ---
