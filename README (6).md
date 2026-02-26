@@ -1,272 +1,81 @@
-<!-- ═══════════════════════════════════════════════════════════ -->
-<!--           GALAXY BANNER — FULL-WIDTH ANIMATED SVG          -->
-<!-- ═══════════════════════════════════════════════════════════ -->
 <div align="center">
 
-<svg width="100%" viewBox="0 0 900 260" xmlns="http://www.w3.org/2000/svg" style="display:block;max-width:100%">
-  <defs>
-    <!-- Deep space background gradient -->
-    <linearGradient id="sky" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%"   stop-color="#000010"/>
-      <stop offset="30%"  stop-color="#0a0020"/>
-      <stop offset="60%"  stop-color="#050030"/>
-      <stop offset="100%" stop-color="#000018"/>
-    </linearGradient>
-    <!-- Galaxy core glow -->
-    <radialGradient id="core" cx="50%" cy="52%">
-      <stop offset="0%"   stop-color="#ffe4b5" stop-opacity="0.95"/>
-      <stop offset="8%"   stop-color="#ffb347" stop-opacity="0.8"/>
-      <stop offset="22%"  stop-color="#e040fb" stop-opacity="0.55"/>
-      <stop offset="45%"  stop-color="#7c3aed" stop-opacity="0.3"/>
-      <stop offset="70%"  stop-color="#1a0050" stop-opacity="0.12"/>
-      <stop offset="100%" stop-color="#000010" stop-opacity="0"/>
-    </radialGradient>
-    <!-- Arm glow left -->
-    <radialGradient id="armL" cx="28%" cy="58%">
-      <stop offset="0%"  stop-color="#60a5fa" stop-opacity="0.5"/>
-      <stop offset="50%" stop-color="#3b82f6" stop-opacity="0.2"/>
-      <stop offset="100%" stop-color="#000010" stop-opacity="0"/>
-    </radialGradient>
-    <!-- Arm glow right -->
-    <radialGradient id="armR" cx="72%" cy="44%">
-      <stop offset="0%"  stop-color="#f472b6" stop-opacity="0.45"/>
-      <stop offset="50%" stop-color="#ec4899" stop-opacity="0.18"/>
-      <stop offset="100%" stop-color="#000010" stop-opacity="0"/>
-    </radialGradient>
-    <!-- Nebula pink -->
-    <radialGradient id="neb1" cx="50%" cy="50%">
-      <stop offset="0%"  stop-color="#f0abfc" stop-opacity="0.35"/>
-      <stop offset="100%" stop-color="#a855f7" stop-opacity="0"/>
-    </radialGradient>
-    <!-- Nebula blue -->
-    <radialGradient id="neb2" cx="50%" cy="50%">
-      <stop offset="0%"  stop-color="#93c5fd" stop-opacity="0.3"/>
-      <stop offset="100%" stop-color="#2563eb" stop-opacity="0"/>
-    </radialGradient>
-    <!-- Text gradient -->
-    <linearGradient id="txtg" x1="0%" y1="0%" x2="100%" y2="0%">
-      <stop offset="0%"   stop-color="#f0abfc"/>
-      <stop offset="35%"  stop-color="#e879f9"/>
-      <stop offset="65%"  stop-color="#c084fc"/>
-      <stop offset="100%" stop-color="#93c5fd"/>
-    </linearGradient>
-    <filter id="blur2"><feGaussianBlur stdDeviation="2"/></filter>
-    <filter id="blur5"><feGaussianBlur stdDeviation="5"/></filter>
-    <filter id="blur12"><feGaussianBlur stdDeviation="12"/></filter>
-    <filter id="blur20"><feGaussianBlur stdDeviation="20"/></filter>
-    <filter id="glow">
-      <feGaussianBlur stdDeviation="3" result="blur"/>
-      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
-    </filter>
-  </defs>
-
-  <!-- Background -->
-  <rect width="900" height="260" fill="url(#sky)"/>
-
-  <!-- Nebulae blobs -->
-  <ellipse cx="200" cy="150" rx="160" ry="80" fill="url(#neb1)" filter="url(#blur20)"/>
-  <ellipse cx="700" cy="110" rx="140" ry="70" fill="url(#neb2)" filter="url(#blur20)"/>
-  <ellipse cx="450" cy="200" rx="200" ry="60" fill="url(#armL)" filter="url(#blur12)"/>
-
-  <!-- Galaxy spiral arms (blurred ellipses at angles) -->
-  <ellipse cx="450" cy="135" rx="380" ry="38" fill="none" stroke="#c084fc" stroke-width="22" opacity="0.07" transform="rotate(-18 450 135)" filter="url(#blur12)"/>
-  <ellipse cx="450" cy="135" rx="300" ry="28" fill="none" stroke="#818cf8" stroke-width="16" opacity="0.09" transform="rotate(12 450 135)" filter="url(#blur12)"/>
-  <ellipse cx="450" cy="135" rx="220" ry="20" fill="none" stroke="#a78bfa" stroke-width="12" opacity="0.12" transform="rotate(-8 450 135)" filter="url(#blur5)"/>
-  <ellipse cx="450" cy="135" rx="150" ry="14" fill="none" stroke="#e879f9" stroke-width="8" opacity="0.18" transform="rotate(22 450 135)" filter="url(#blur5)"/>
-
-  <!-- Arm glow overlays -->
-  <ellipse cx="255" cy="150" rx="180" ry="55" fill="url(#armL)" filter="url(#blur12)"/>
-  <ellipse cx="645" cy="118" rx="170" ry="52" fill="url(#armR)" filter="url(#blur12)"/>
-
-  <!-- Galaxy core -->
-  <ellipse cx="450" cy="135" rx="90" ry="90" fill="url(#core)" filter="url(#blur12)"/>
-  <ellipse cx="450" cy="135" rx="28" ry="28" fill="#ffe4b5" opacity="0.9" filter="url(#blur5)"/>
-  <ellipse cx="450" cy="135" rx="10" ry="10" fill="white" opacity="0.95" filter="url(#blur2)"/>
-
-  <!-- ── STATIC STARS (many, scattered) ── -->
-  <!-- bright -->
-  <circle cx="42"  cy="18"  r="1.6" fill="white" opacity="0.95"/>
-  <circle cx="830" cy="22"  r="1.8" fill="white" opacity="0.9"/>
-  <circle cx="120" cy="240" r="1.5" fill="#e9d5ff" opacity="0.85"/>
-  <circle cx="780" cy="245" r="1.6" fill="white" opacity="0.9"/>
-  <circle cx="880" cy="130" r="1.4" fill="#bae6fd" opacity="0.88"/>
-  <circle cx="15"  cy="160" r="1.5" fill="white" opacity="0.85"/>
-  <!-- medium -->
-  <circle cx="75"  cy="55"  r="1.1" fill="#e9d5ff" opacity="0.8"/>
-  <circle cx="180" cy="25"  r="1"   fill="white" opacity="0.75"/>
-  <circle cx="320" cy="14"  r="1.2" fill="#bfdbfe" opacity="0.82"/>
-  <circle cx="560" cy="10"  r="1.1" fill="white" opacity="0.78"/>
-  <circle cx="710" cy="20"  r="1.3" fill="#e9d5ff" opacity="0.8"/>
-  <circle cx="860" cy="55"  r="1"   fill="white" opacity="0.72"/>
-  <circle cx="895" cy="200" r="1.2" fill="#bae6fd" opacity="0.75"/>
-  <circle cx="30"  cy="230" r="1.1" fill="white" opacity="0.7"/>
-  <circle cx="650" cy="248" r="1.3" fill="#e9d5ff" opacity="0.78"/>
-  <circle cx="820" cy="190" r="1"   fill="white" opacity="0.72"/>
-  <!-- small scatter -->
-  <circle cx="55"  cy="100" r="0.8" fill="white" opacity="0.6"/>
-  <circle cx="100" cy="195" r="0.7" fill="#c4b5fd" opacity="0.65"/>
-  <circle cx="150" cy="70"  r="0.8" fill="white" opacity="0.6"/>
-  <circle cx="230" cy="210" r="0.7" fill="white" opacity="0.55"/>
-  <circle cx="290" cy="235" r="0.8" fill="#bfdbfe" opacity="0.6"/>
-  <circle cx="370" cy="22"  r="0.7" fill="white" opacity="0.58"/>
-  <circle cx="480" cy="8"   r="0.9" fill="#e9d5ff" opacity="0.65"/>
-  <circle cx="600" cy="240" r="0.7" fill="white" opacity="0.55"/>
-  <circle cx="720" cy="250" r="0.8" fill="#c4b5fd" opacity="0.6"/>
-  <circle cx="800" cy="60"  r="0.7" fill="white" opacity="0.58"/>
-  <circle cx="860" cy="165" r="0.8" fill="#bae6fd" opacity="0.6"/>
-  <circle cx="888" cy="95"  r="0.7" fill="white" opacity="0.55"/>
-  <circle cx="340" cy="255" r="0.6" fill="white" opacity="0.5"/>
-  <circle cx="500" cy="252" r="0.7" fill="#e9d5ff" opacity="0.55"/>
-  <circle cx="760" cy="15"  r="0.7" fill="white" opacity="0.6"/>
-  <circle cx="20"  cy="80"  r="0.6" fill="white" opacity="0.5"/>
-  <circle cx="890" cy="35"  r="0.6" fill="#bfdbfe" opacity="0.52"/>
-
-  <!-- ── TWINKLING STARS (animated) ── -->
-  <circle cx="62"  cy="38"  r="1.5" fill="white"><animate attributeName="opacity" values="0.9;0.15;0.9" dur="2.1s" repeatCount="indefinite"/></circle>
-  <circle cx="810" cy="42"  r="1.6" fill="#e9d5ff"><animate attributeName="opacity" values="0.85;0.1;0.85" dur="1.8s" repeatCount="indefinite"/></circle>
-  <circle cx="160" cy="185" r="1.3" fill="white"><animate attributeName="opacity" values="0.8;0.2;0.8" dur="2.6s" repeatCount="indefinite"/></circle>
-  <circle cx="740" cy="195" r="1.4" fill="#bae6fd"><animate attributeName="opacity" values="0.88;0.12;0.88" dur="1.5s" repeatCount="indefinite"/></circle>
-  <circle cx="600" cy="28"  r="1.2" fill="#e9d5ff"><animate attributeName="opacity" values="0.75;0.1;0.75" dur="3s" repeatCount="indefinite"/></circle>
-  <circle cx="350" cy="245" r="1.3" fill="white"><animate attributeName="opacity" values="0.82;0.15;0.82" dur="2.3s" repeatCount="indefinite"/></circle>
-  <circle cx="875" cy="150" r="1.1" fill="#c4b5fd"><animate attributeName="opacity" values="0.7;0.08;0.7" dur="2.8s" repeatCount="indefinite"/></circle>
-  <circle cx="25"  cy="45"  r="1.2" fill="white"><animate attributeName="opacity" values="0.85;0.18;0.85" dur="1.9s" repeatCount="indefinite"/></circle>
-  <circle cx="270" cy="15"  r="1.1" fill="#bfdbfe"><animate attributeName="opacity" values="0.78;0.12;0.78" dur="2.4s" repeatCount="indefinite"/></circle>
-  <circle cx="680" cy="255" r="1.2" fill="white"><animate attributeName="opacity" values="0.8;0.15;0.8" dur="2.7s" repeatCount="indefinite"/></circle>
-  <!-- shooting star -->
-  <line x1="-30" y1="40" x2="0" y2="38" stroke="white" stroke-width="1.2" opacity="0">
-    <animate attributeName="x1" values="-30;960" dur="4s" begin="1s" repeatCount="indefinite"/>
-    <animate attributeName="x2" values="0;1000" dur="4s" begin="1s" repeatCount="indefinite"/>
-    <animate attributeName="y1" values="40;80" dur="4s" begin="1s" repeatCount="indefinite"/>
-    <animate attributeName="y2" values="38;78" dur="4s" begin="1s" repeatCount="indefinite"/>
-    <animate attributeName="opacity" values="0;0.9;0.9;0" dur="4s" begin="1s" repeatCount="indefinite"/>
-  </line>
-  <!-- shooting star 2 -->
-  <line x1="-30" y1="200" x2="0" y2="198" stroke="#c4b5fd" stroke-width="1" opacity="0">
-    <animate attributeName="x1" values="-30;900" dur="3.5s" begin="6s" repeatCount="indefinite"/>
-    <animate attributeName="x2" values="0;930"  dur="3.5s" begin="6s" repeatCount="indefinite"/>
-    <animate attributeName="y1" values="200;230" dur="3.5s" begin="6s" repeatCount="indefinite"/>
-    <animate attributeName="y2" values="198;228" dur="3.5s" begin="6s" repeatCount="indefinite"/>
-    <animate attributeName="opacity" values="0;0.85;0.85;0" dur="3.5s" begin="6s" repeatCount="indefinite"/>
-  </line>
-
-  <!-- ── ORBITING PLANETS around core ── -->
-  <!-- Planet 1: orbit ellipse guide -->
-  <ellipse id="op1" cx="450" cy="135" rx="110" ry="32" fill="none" transform="rotate(-15 450 135)"/>
-  <circle r="5" fill="#f472b6" filter="url(#glow)">
-    <animateMotion dur="7s" repeatCount="indefinite">
-      <mpath href="#op1"/>
-    </animateMotion>
-  </circle>
-  <!-- Planet 2 -->
-  <ellipse id="op2" cx="450" cy="135" rx="145" ry="42" fill="none" transform="rotate(20 450 135)"/>
-  <circle r="3.5" fill="#60a5fa" filter="url(#glow)">
-    <animateMotion dur="11s" repeatCount="indefinite">
-      <mpath href="#op2"/>
-    </animateMotion>
-  </circle>
-  <!-- Planet 3 (tiny) -->
-  <ellipse id="op3" cx="450" cy="135" rx="80" ry="22" fill="none" transform="rotate(5 450 135)"/>
-  <circle r="2.5" fill="#fde68a">
-    <animateMotion dur="4.5s" repeatCount="indefinite">
-      <mpath href="#op3"/>
-    </animateMotion>
-  </circle>
-
-  <!-- ── NAME TEXT ── -->
-  <text x="450" y="108"
-    font-family="Georgia, serif"
-    font-size="38"
-    font-weight="bold"
-    fill="url(#txtg)"
-    text-anchor="middle"
-    filter="url(#glow)"
-    letter-spacing="3">Trần Khánh Ngọc</text>
-
-  <!-- Sub text -->
-  <text x="450" y="175"
-    font-family="monospace"
-    font-size="13"
-    fill="#c4b5fd"
-    text-anchor="middle"
-    opacity="0.9"
-    letter-spacing="1.5">🌌 FTU · International Business · Future Business Analyst 🌌</text>
-
-  <!-- Bottom divider line -->
-  <line x1="200" y1="195" x2="700" y2="195" stroke="url(#txtg)" stroke-width="0.8" opacity="0.4"/>
-
-  <!-- Rotating ring around core (decorative) -->
-  <ellipse cx="450" cy="135" rx="55" ry="16" fill="none" stroke="#e9d5ff" stroke-width="0.7" opacity="0.4">
-    <animateTransform attributeName="transform" type="rotate" from="0 450 135" to="360 450 135" dur="8s" repeatCount="indefinite"/>
-  </ellipse>
-</svg>
+<!-- VENOM HEADER — capsule-render -->
+<img width="80%" src="https://capsule-render.vercel.app/api?type=venom&color=0:05001a,25:120038,55:3b0764,80:1e0050,100:07001f&height=200&section=header&text=Tr%E1%BA%A7n%20Kh%C3%A1nh%20Ng%E1%BB%8Dc&fontSize=50&fontColor=e879f9&fontAlignY=42&animation=twinkling&desc=%E2%9C%A6%20FTU%20%C2%B7%20International%20Business%20%C2%B7%20Future%20Business%20Analyst%20%E2%9C%A6&descSize=15&descAlignY=64&descColor=c4b5fd&stroke=a855f7&strokeWidth=2"/>
 
 </div>
 
-<!-- TYPING SVG -->
+
 <div align="center">
 <a href="https://git.io/typing-svg">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=20&pause=1200&color=E879F9&center=true&vCenter=true&width=620&lines=Business+Analyst+in+Progress+%F0%9F%93%8A;Data+%2B+Business+%3D+Real+Impact+%E2%9C%A8;FTU+%C2%B7+International+Business+Year+2+%F0%9F%8E%93;Turning+Data+into+Decisions+%F0%9F%9A%80;SBCYC+%C2%B7+External+Relations+Officer+%F0%9F%8C%9F" alt="Typing SVG"/>
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=22&pause=1200&color=E879F9&center=true&vCenter=true&width=600&lines=Business+Analyst+in+Progress+%F0%9F%93%8A;Data+%2B+Business+%3D+Real+Impact+%E2%9C%A8;FTU+%C2%B7+International+Business+Year+2+%F0%9F%8E%93;Turning+Data+into+Decisions+%F0%9F%9A%80;SBCYC+%C2%B7+External+Relations+Officer+%F0%9F%8C%9F" alt="Typing SVG"/>
 </a>
 </div>
 
 <br/>
 
-<!-- ════════════════════════════════════════════════════ -->
-<!--               MAIN TWO-COLUMN LAYOUT               -->
-<!-- ════════════════════════════════════════════════════ -->
+<!-- ╔══════════════════════════════════════════════════════════╗ -->
+<!--                  MAIN TWO-COLUMN LAYOUT                    -->
+<!-- ╚══════════════════════════════════════════════════════════╝ -->
 <table width="100%" border="0" cellpadding="0" cellspacing="0">
 <tr>
 
-<!-- ══ LEFT PANEL ══ -->
+<!-- ══════════════ LEFT PANEL ══════════════ -->
 <td width="30%" valign="top" align="center">
 
 <br/>
 
-<img src="port.png" width="175"
-  style="border-radius:50%;border:4px solid #e879f9;box-shadow:0 0 25px #a855f7"
+<!-- AVATAR -->
+<img src="port.png"
+  width="300"
+  style="border-radius:50%;border:5px solid white;box-shadow:0 15px 30px rgba(0,0,0,0.2);"
   alt="Khánh Ngọc"/>
 
 <br/><br/>
 
-<!-- MINI GALAXY ORB SVG -->
-<svg width="150" height="150" viewBox="0 0 160 160" xmlns="http://www.w3.org/2000/svg">
+<!-- COSMIC ORB SVG -->
+<svg width="155" height="155" viewBox="0 0 160 160" xmlns="http://www.w3.org/2000/svg">
   <defs>
-    <radialGradient id="p2" cx="35%" cy="30%">
-      <stop offset="0%"  stop-color="#fde68a"/>
-      <stop offset="30%" stop-color="#f472b6"/>
-      <stop offset="65%" stop-color="#7c3aed"/>
-      <stop offset="100%" stop-color="#0a0020"/>
+    <radialGradient id="planet" cx="36%" cy="32%">
+      <stop offset="0%" stop-color="#e9d5ff"/>
+      <stop offset="40%" stop-color="#7c3aed"/>
+      <stop offset="100%" stop-color="#1e1b4b"/>
     </radialGradient>
-    <radialGradient id="h2" cx="50%" cy="50%">
-      <stop offset="0%" stop-color="#a855f7" stop-opacity="0.4"/>
-      <stop offset="100%" stop-color="#a855f7" stop-opacity="0"/>
+    <radialGradient id="halo" cx="50%" cy="50%">
+      <stop offset="0%" stop-color="#7c3aed" stop-opacity="0.35"/>
+      <stop offset="100%" stop-color="#7c3aed" stop-opacity="0"/>
     </radialGradient>
-    <filter id="sg"><feGaussianBlur stdDeviation="2.5" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
   </defs>
-  <circle cx="80" cy="80" r="74" fill="url(#h2)"/>
-  <circle cx="80" cy="80" r="48" fill="url(#p2)"/>
-  <ellipse cx="65" cy="58" rx="15" ry="8" fill="white" opacity="0.14" transform="rotate(-28 65 58)"/>
-  <!-- rings -->
-  <ellipse cx="80" cy="80" rx="70" ry="20" fill="none" stroke="#e879f9" stroke-width="1.3" opacity="0.6">
+  <circle cx="80" cy="80" r="74" fill="url(#halo)"/>
+  <circle cx="80" cy="80" r="50" fill="url(#planet)"/>
+  <ellipse cx="67" cy="60" rx="16" ry="9" fill="white" opacity="0.13" transform="rotate(-28 67 60)"/>
+  <!-- Orbit 1 -->
+  <ellipse cx="80" cy="80" rx="71" ry="21" fill="none" stroke="#a78bfa" stroke-width="1.4" opacity="0.65">
     <animateTransform attributeName="transform" type="rotate" from="0 80 80" to="360 80 80" dur="5s" repeatCount="indefinite"/>
   </ellipse>
-  <circle r="4.5" fill="#f0abfc" filter="url(#sg)">
-    <animateMotion dur="5s" repeatCount="indefinite" path="M 10 80 A 70 20 0 1 1 10.001 80"/>
+  <!-- Satellite on orbit 1 -->
+  <circle r="4" fill="#c4b5fd">
+    <animateMotion dur="5s" repeatCount="indefinite">
+      <mpath href="#orbitPath1"/>
+    </animateMotion>
   </circle>
-  <ellipse cx="80" cy="80" rx="58" ry="15" fill="none" stroke="#60a5fa" stroke-width="0.8" opacity="0.35">
-    <animateTransform attributeName="transform" type="rotate" from="40 80 80" to="400 80 80" dur="9s" repeatCount="indefinite"/>
+  <path id="orbitPath1" d="M 9 80 A 71 21 0 1 1 9.001 80" fill="none"/>
+  <!-- Orbit 2 -->
+  <ellipse cx="80" cy="80" rx="62" ry="17" fill="none" stroke="#c4b5fd" stroke-width="0.7" opacity="0.3" transform="rotate(55 80 80)">
+    <animateTransform attributeName="transform" type="rotate" from="55 80 80" to="415 80 80" dur="9s" repeatCount="indefinite"/>
   </ellipse>
-  <!-- twinkle stars -->
-  <circle cx="20" cy="24" r="1.4" fill="#fde68a"><animate attributeName="opacity" values="1;0.2;1" dur="2.2s" repeatCount="indefinite"/></circle>
-  <circle cx="138" cy="32" r="1.1" fill="#c4b5fd"><animate attributeName="opacity" values="0.8;0.1;0.8" dur="1.7s" repeatCount="indefinite"/></circle>
-  <circle cx="128" cy="138" r="1.5" fill="#fde68a"><animate attributeName="opacity" values="0.9;0.15;0.9" dur="2.8s" repeatCount="indefinite"/></circle>
-  <circle cx="24" cy="128" r="1" fill="#93c5fd"><animate attributeName="opacity" values="0.85;0.2;0.85" dur="2s" repeatCount="indefinite"/></circle>
-  <circle cx="150" cy="95" r="1.2" fill="#f0abfc"><animate attributeName="opacity" values="0.7;0.1;0.7" dur="3.2s" repeatCount="indefinite"/></circle>
-  <circle cx="65" cy="150" r="1" fill="white"><animate attributeName="opacity" values="0.75;0.1;0.75" dur="1.5s" repeatCount="indefinite"/></circle>
+  <!-- Stars -->
+  <circle cx="18" cy="22" r="1.4" fill="#e9d5ff" opacity="0.9"><animate attributeName="opacity" values="0.9;0.2;0.9" dur="2.3s" repeatCount="indefinite"/></circle>
+  <circle cx="138" cy="35" r="1.1" fill="#c4b5fd" opacity="0.7"><animate attributeName="opacity" values="0.7;0.1;0.7" dur="1.8s" repeatCount="indefinite"/></circle>
+  <circle cx="125" cy="135" r="1.5" fill="#e9d5ff" opacity="0.6"><animate attributeName="opacity" values="0.6;0.15;0.6" dur="2.7s" repeatCount="indefinite"/></circle>
+  <circle cx="22" cy="122" r="1" fill="#a78bfa" opacity="0.8"><animate attributeName="opacity" values="0.8;0.2;0.8" dur="2s" repeatCount="indefinite"/></circle>
+  <circle cx="148" cy="95" r="1.2" fill="#c4b5fd" opacity="0.55"><animate attributeName="opacity" values="0.55;0.1;0.55" dur="3.1s" repeatCount="indefinite"/></circle>
+  <circle cx="60" cy="145" r="1" fill="#e9d5ff" opacity="0.7"><animate attributeName="opacity" values="0.7;0.15;0.7" dur="1.6s" repeatCount="indefinite"/></circle>
 </svg>
 
 <br/>
 
+<!-- CONTACT CARD -->
 **📬 Contact Me**
 
 📧 ngoc27122006@gmail.com
@@ -275,20 +84,23 @@
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?style=flat-square&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/tr%E1%BA%A7n-kh%C3%A1nh-ng%E1%BB%8Dc-453a701b0/)
 [![GitHub](https://img.shields.io/badge/GitHub-%23121011.svg?style=flat-square&logo=github&logoColor=white)](https://github.com/khanhngoc2712)
 
----
+<br/>
 
+<!-- QUOTE -->
+---
 *"It doesn't matter how slowly*
 *you go, as long as you don't stop."*
 
 ---
 
-![Visitor Badge](https://visitor-badge.laobi.icu/badge?page_id=khanhngoc2712.khanhngoc2712&color=a855f7)
+![Visitor Badge](https://visitor-badge.laobi.icu/badge?page_id=khanhngoc2712.khanhngoc2712&color=7c3aed)
 
 </td>
 
+<!-- spacer -->
 <td width="2%"></td>
 
-<!-- ══ RIGHT PANEL ══ -->
+<!-- ══════════════ RIGHT PANEL ══════════════ -->
 <td width="68%" valign="top">
 
 <br/>
@@ -335,87 +147,121 @@ Là sinh viên kinh tế yêu thích lập trình, mình đặc biệt quan tâm
 
 <details open>
 <summary><b>📊 Business Performance Dashboard — Power BI</b></summary>
+
 <br/>
 
 > **Role:** Data Analyst &nbsp;|&nbsp; **Tools:** `Power BI` `Excel` `DAX` `Data Modeling`
 
-Developed an **interactive BI dashboard** to analyze company performance and support strategic decision-making.
+Developed an **interactive business intelligence dashboard** to analyze company performance and support strategic decision-making.
 
+**Key Contributions:**
 - 🧹 Cleaned & transformed raw business datasets
 - 🏗️ Built relational data model connecting multiple sources
-- 📐 Created DAX measures: Revenue, Profit, Growth Rate, Regional Performance
-- 📊 Designed interactive drill-through dashboards with slicers & filters
+- 📐 Created DAX measures for KPI calculation (Revenue, Profit, Growth Rate, Regional Performance)
+- 📊 Designed interactive, drill-through dashboards with slicers & filters
 - 🎯 Presented data-driven insights with strategic recommendations
 
-**🎯 Impact:** Turned raw operational data into actionable intelligence.
+**🎯 Impact:** Turned raw operational data into actionable intelligence for data-driven business decisions.
 
 ![Dashboard Preview](Screenshot%202026-02-26%20160358.png)
+
 </details>
 
 ---
 
 <details>
 <summary><b>📈 Exploratory Data Analysis — Python</b></summary>
+
 <br/>
 
 > **Role:** Data Analyst &nbsp;|&nbsp; **Tools:** `Python` `Pandas` `NumPy` `Matplotlib` `Seaborn`
 
+Performed **EDA** to extract meaningful business insights from structured economic datasets.
+
+**Key Contributions:**
 - 🧹 Data cleaning, preprocessing & outlier detection
 - 📉 Statistical analysis & hypothesis testing
 - 📊 Multi-dimensional trend & pattern visualization
 - 💡 Insight generation for business strategy
+
+**Focus:** Applying analytical thinking to solve real business problems.
+
 </details>
 
 ---
 
 <details>
 <summary><b>🛒 Market Entry Analysis — International Business</b></summary>
+
 <br/>
 
 > **Role:** Research & Strategy &nbsp;|&nbsp; **Tools:** `Excel` `PowerPoint` `PESTLE` `Porter's Five Forces`
 
+Analyzed market opportunities for a Vietnamese SME considering international expansion.
+
+**Key Contributions:**
 - 🌍 PESTLE & SWOT analysis for 3 target markets
 - ⚔️ Competitive landscape mapping via Porter's Five Forces
 - 💰 Financial feasibility & risk assessment
-- 📑 Full strategy report with go/no-go recommendation
+- 📑 Full strategy report with market entry recommendations
+
+**Outcome:** Delivered a go/no-go recommendation backed by quantitative data.
+
 </details>
 
 ---
 
 <details>
 <summary><b>🗃️ Student Management Database System — MySQL + Java</b></summary>
+
 <br/>
 
 > **Role:** Developer &nbsp;|&nbsp; **Tools:** `MySQL` `Java` `JDBC` `ER Diagram`
 
+Designed and implemented a **relational database system** for managing student academic records.
+
+**Key Contributions:**
 - 🏗️ ER diagram design & schema normalization (3NF)
-- 🗄️ Stored procedures, triggers, constraints
-- ☕ Java JDBC CRUD interface
+- 🗄️ MySQL database with stored procedures & triggers
+- ☕ Java JDBC interface for CRUD operations
 - 🔒 Role-based access control (Admin / Student)
+
 </details>
 
 ---
 
 <details>
 <summary><b>🌐 Personal Portfolio Website</b></summary>
+
 <br/>
 
 > **Role:** Developer & Designer &nbsp;|&nbsp; **Tools:** `HTML5` `CSS3` `JavaScript` `GitHub Pages`
 
-- 🎨 4-theme color switcher · Canvas particle system · Custom cursor
-- 📱 Fully responsive · Sticky split layout
-- **Live:** [khanhngoc2712.github.io](https://khanhngoc2712.github.io)
+Built a **personal portfolio website** with animated UI, theme switcher & particle effects.
+
+**Key Contributions:**
+- 🎨 Custom CSS animations, sticky layouts & responsive design
+- 🌈 4-theme color switcher (Rose / Ocean / Forest / Night)
+- ✨ Canvas particle system & custom cursor
+- 📱 Fully mobile-responsive
+
+**Live:** [khanhngoc2712.github.io](https://khanhngoc2712.github.io)
+
 </details>
 
 ---
 
 <details>
 <summary><b>📋 BA Learning Roadmap Tracker</b></summary>
+
 <br/>
 
 > **Role:** Self-learner &nbsp;|&nbsp; **Tools:** `Markdown` `GitHub` `Notion`
 
-Structured **Business Analyst self-learning journey** covering: SQL · Power BI · Python for Data · BABOK fundamentals
+Structured and publicly documented a **systematic Business Analyst self-learning journey**.
+
+**Covers:** SQL · Power BI · Python for Data · Business Process Modeling · BABOK fundamentals
+
 </details>
 
 ---
@@ -448,6 +294,7 @@ Structured **Business Analyst self-learning journey** covering: SQL · Power BI 
 
 ---
 
+<!-- ACTIVITIES -->
 ## 📸 Activities & Events
 
 <div align="center">
@@ -467,36 +314,129 @@ Structured **Business Analyst self-learning journey** covering: SQL · Power BI 
 
 ---
 
-<!-- GALAXY FOOTER SVG -->
+<!-- ══════════════ FOOTER ══════════════ -->
 <div align="center">
 
-<svg width="100%" viewBox="0 0 900 90" xmlns="http://www.w3.org/2000/svg" style="display:block;max-width:100%">
+<img src="./tải xuống (12).jpg" width="480" style="border-radius:16px; opacity:0.9"/>
+
+<br/><br/>
+
+<svg width="100%" viewBox="0 0 900 160" xmlns="http://www.w3.org/2000/svg" style="display:block;max-width:100%">
   <defs>
-    <linearGradient id="fsky" x1="0%" y1="0%" x2="100%" y2="0%">
-      <stop offset="0%"   stop-color="#000010"/>
-      <stop offset="30%"  stop-color="#0d0030"/>
-      <stop offset="50%"  stop-color="#1e0050"/>
-      <stop offset="70%"  stop-color="#0d0030"/>
-      <stop offset="100%" stop-color="#000010"/>
+    <!-- Deep space footer bg -->
+    <linearGradient id="fbg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%"   stop-color="#05001a"/>
+      <stop offset="30%"  stop-color="#0f0030"/>
+      <stop offset="60%"  stop-color="#1a0050"/>
+      <stop offset="100%" stop-color="#08001f"/>
     </linearGradient>
-    <radialGradient id="fcore" cx="50%" cy="60%">
-      <stop offset="0%"  stop-color="#e879f9" stop-opacity="0.6"/>
-      <stop offset="40%" stop-color="#7c3aed" stop-opacity="0.25"/>
-      <stop offset="100%" stop-color="#000010" stop-opacity="0"/>
+    <!-- Pulse ring gradient -->
+    <radialGradient id="pulse" cx="50%" cy="50%">
+      <stop offset="0%"  stop-color="#a855f7" stop-opacity="0"/>
+      <stop offset="60%" stop-color="#a855f7" stop-opacity="0.15"/>
+      <stop offset="100%" stop-color="#7c3aed" stop-opacity="0.35"/>
     </radialGradient>
-    <filter id="fb"><feGaussianBlur stdDeviation="5"/></filter>
+    <!-- Text gradient: pink→violet→lavender shimmer -->
+    <linearGradient id="tg" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%"   stop-color="#e879f9"/>
+      <stop offset="25%"  stop-color="#c084fc"/>
+      <stop offset="50%"  stop-color="#ffffff"/>
+      <stop offset="75%"  stop-color="#c084fc"/>
+      <stop offset="100%" stop-color="#e879f9"/>
+      <!-- Shimmer sweep animation -->
+      <animate attributeName="x1" values="0%;-100%;0%" dur="3s" repeatCount="indefinite"/>
+      <animate attributeName="x2" values="100%;200%;100%" dur="3s" repeatCount="indefinite"/>
+    </linearGradient>
+    <!-- Sub text gradient -->
+    <linearGradient id="sg" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%"   stop-color="#7c3aed" stop-opacity="0.7"/>
+      <stop offset="50%"  stop-color="#c4b5fd" stop-opacity="0.9"/>
+      <stop offset="100%" stop-color="#7c3aed" stop-opacity="0.7"/>
+    </linearGradient>
+    <!-- Venom drip top -->
+    <linearGradient id="vd" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%"   stop-color="#4c1d95" stop-opacity="0"/>
+      <stop offset="25%"  stop-color="#7c3aed" stop-opacity="0.85"/>
+      <stop offset="50%"  stop-color="#a855f7" stop-opacity="1"/>
+      <stop offset="75%"  stop-color="#7c3aed" stop-opacity="0.85"/>
+      <stop offset="100%" stop-color="#4c1d95" stop-opacity="0"/>
+    </linearGradient>
+    <filter id="glow4">
+      <feGaussianBlur stdDeviation="4" result="b"/>
+      <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <filter id="blur10"><feGaussianBlur stdDeviation="10"/></filter>
+    <filter id="blur18"><feGaussianBlur stdDeviation="18"/></filter>
   </defs>
-  <rect width="900" height="90" fill="url(#fsky)"/>
-  <ellipse cx="450" cy="80" rx="350" ry="60" fill="url(#fcore)" filter="url(#fb)"/>
-  <!-- stars -->
-  <circle cx="50"  cy="20" r="1.2" fill="white" opacity="0.7"><animate attributeName="opacity" values="0.7;0.1;0.7" dur="2.1s" repeatCount="indefinite"/></circle>
-  <circle cx="850" cy="15" r="1.3" fill="#e9d5ff" opacity="0.8"><animate attributeName="opacity" values="0.8;0.15;0.8" dur="1.7s" repeatCount="indefinite"/></circle>
-  <circle cx="200" cy="35" r="1"   fill="white" opacity="0.6"><animate attributeName="opacity" values="0.6;0.1;0.6" dur="2.5s" repeatCount="indefinite"/></circle>
-  <circle cx="700" cy="30" r="1.1" fill="#c4b5fd" opacity="0.65"><animate attributeName="opacity" values="0.65;0.1;0.65" dur="2.8s" repeatCount="indefinite"/></circle>
-  <circle cx="400" cy="12" r="1"   fill="white" opacity="0.55"><animate attributeName="opacity" values="0.55;0.08;0.55" dur="3s" repeatCount="indefinite"/></circle>
-  <circle cx="600" cy="18" r="1.2" fill="#fde68a" opacity="0.6"><animate attributeName="opacity" values="0.6;0.1;0.6" dur="1.9s" repeatCount="indefinite"/></circle>
-  <!-- footer text -->
-  <text x="450" y="58" font-family="Georgia,serif" font-size="13" fill="#c4b5fd" text-anchor="middle" opacity="0.85" letter-spacing="2">© 2024 Trần Khánh Ngọc · Made with 🌌 across the galaxy</text>
+
+  <!-- Background -->
+  <rect width="900" height="160" fill="url(#fbg)"/>
+
+  <!-- Venom drip from top -->
+  <rect x="0" y="0" width="900" height="3" fill="url(#vd)"/>
+  <path d="M140,0 Q158,14 145,0" fill="#7c3aed" opacity="0.8"/>
+  <path d="M260,0 Q278,20 295,0" fill="#a855f7" opacity="0.75"/>
+  <path d="M390,0 Q420,26 450,0" fill="#8b5cf6" opacity="0.85"/>
+  <path d="M555,0 Q572,18 588,0" fill="#a855f7" opacity="0.7"/>
+  <path d="M700,0 Q715,12 730,0" fill="#7c3aed" opacity="0.75"/>
+
+  <!-- Pulsing rings behind text -->
+  <circle cx="450" cy="82" r="120" fill="none" stroke="#7c3aed" stroke-width="0.8" opacity="0.2">
+    <animate attributeName="r" values="80;130;80" dur="4s" repeatCount="indefinite"/>
+    <animate attributeName="opacity" values="0.25;0.05;0.25" dur="4s" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="450" cy="82" r="100" fill="none" stroke="#a855f7" stroke-width="0.6" opacity="0.15">
+    <animate attributeName="r" values="60;110;60" dur="4s" begin="1s" repeatCount="indefinite"/>
+    <animate attributeName="opacity" values="0.2;0.04;0.2" dur="4s" begin="1s" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="450" cy="82" r="60" fill="none" stroke="#c084fc" stroke-width="0.5" opacity="0.1">
+    <animate attributeName="r" values="40;90;40" dur="4s" begin="2s" repeatCount="indefinite"/>
+    <animate attributeName="opacity" values="0.15;0.03;0.15" dur="4s" begin="2s" repeatCount="indefinite"/>
+  </circle>
+
+  <!-- Glow blob center -->
+  <ellipse cx="450" cy="82" rx="280" ry="60" fill="url(#pulse)" filter="url(#blur18)"/>
+
+  <!-- Twinkling stars -->
+  <circle cx="35"  cy="30" r="1.2" fill="#e9d5ff"><animate attributeName="opacity" values="0.8;0.1;0.8" dur="2.1s" repeatCount="indefinite"/></circle>
+  <circle cx="860" cy="25" r="1.4" fill="#c4b5fd"><animate attributeName="opacity" values="0.85;0.12;0.85" dur="1.8s" repeatCount="indefinite"/></circle>
+  <circle cx="80"  cy="130" r="1" fill="white"><animate attributeName="opacity" values="0.65;0.08;0.65" dur="2.7s" repeatCount="indefinite"/></circle>
+  <circle cx="820" cy="130" r="1.1" fill="#e9d5ff"><animate attributeName="opacity" values="0.7;0.1;0.7" dur="2.4s" repeatCount="indefinite"/></circle>
+  <circle cx="200" cy="20" r="0.9" fill="white"><animate attributeName="opacity" values="0.6;0.07;0.6" dur="3s" repeatCount="indefinite"/></circle>
+  <circle cx="700" cy="18" r="1"   fill="#c4b5fd"><animate attributeName="opacity" values="0.68;0.1;0.68" dur="2.2s" repeatCount="indefinite"/></circle>
+  <circle cx="450" cy="12" r="1.3" fill="white"><animate attributeName="opacity" values="0.9;0.15;0.9" dur="1.6s" repeatCount="indefinite"/></circle>
+
+  <!-- ✦ dots flanking the quote -->
+  <text x="198" y="91" font-size="18" fill="#e879f9" text-anchor="middle" filter="url(#glow4)" opacity="0.9">
+    ✦
+    <animate attributeName="opacity" values="0.9;0.3;0.9" dur="2s" repeatCount="indefinite"/>
+  </text>
+  <text x="702" y="91" font-size="18" fill="#e879f9" text-anchor="middle" filter="url(#glow4)" opacity="0.9">
+    ✦
+    <animate attributeName="opacity" values="0.9;0.3;0.9" dur="2s" begin="1s" repeatCount="indefinite"/>
+  </text>
+
+  <!-- MAIN QUOTE with shimmer gradient + glow -->
+  <text x="450" y="96"
+    font-family="Georgia, serif"
+    font-size="32"
+    font-weight="bold"
+    font-style="italic"
+    fill="url(#tg)"
+    text-anchor="middle"
+    filter="url(#glow4)"
+    letter-spacing="3">Nothing is impossible!</text>
+
+  <!-- Sub line -->
+  <text x="450" y="125"
+    font-family="monospace"
+    font-size="11"
+    fill="url(#sg)"
+    text-anchor="middle"
+    letter-spacing="3">— © 2024 Trần Khánh Ngọc · Made with 💜 —</text>
+
+  <!-- Bottom venom edge -->
+  <rect x="0" y="157" width="900" height="3" fill="url(#vd)" opacity="0.6"/>
 </svg>
 
 </div>
