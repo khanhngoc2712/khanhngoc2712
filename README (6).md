@@ -8,7 +8,7 @@
 
 <div align="center">
 <a href="https://git.io/typing-svg">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=22&pause=1200&color=E879F9&center=true&vCenter=true&width=600&lines=Business+Analyst+in+Progress+%F0%9F%93%8A;Data+%2B+Business+%3D+Real+Impact+%E2%9C%A8;FTU+%C2%B7+International+Business+Year+2+%F0%9F%8E%93;Turning+Data+into+Decisions+%F0%9F%9A%80;SBCYC+%C2%B7+External+Relations+Officer+%F0%9F%8C%9F" alt="Typing SVG"/>
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=22&pause=1200&color=E879F9&center=true&vCenter=true&width=600&lines=Business+Analyst+in+Progress+%F0%9F%93%8A;Data+%2B+Business+%3D+Real+Impact+%E2%9C%A8;Turning+Data+into+Decisions+%F0%9F%9A%80;" alt="Typing SVG"/>
 </a>
 </div>
 
@@ -107,15 +107,18 @@
 
 ## 💫 About Me
 
-Xin chào, mình là **Khánh Ngọc** ✨ — sinh viên năm 2 ngành **Kinh doanh Quốc tế** tại **Trường Đại học Ngoại thương**, đang đảm nhiệm vai trò **Phó ban Đối ngoại** tại ***Social Business Creation Youth Community (SBCYC – FTU)***.
+Xin chào, mình là **Khánh Ngọc** ✨  
+Hiện tại, mình là sinh viên năm 2 ngành **Kinh doanh Quốc tế** tại **Trường Đại học Ngoại thương**.  
+Bên cạnh việc học tập, mình chủ động tham gia các hoạt động ngoại khóa và phong trào sinh viên. Hiện mình đang đảm nhiệm vai trò Phó ban Đối ngoại tại ***Social Business Creation Youth Community (SBCYC – FTU)***.
 
-Là sinh viên kinh tế yêu thích lập trình, mình đặc biệt quan tâm đến sự giao thoa giữa **tư duy kinh doanh và công nghệ**. Mình đang phát triển theo lộ trình **Business Analyst** — chuyển hóa dữ liệu thành giải pháp tạo ra giá trị thực cho doanh nghiệp.
+Là một sinh viên kinh tế yêu thích lập trình, mình đặc biệt quan tâm đến sự giao thoa giữa tư duy kinh doanh và công nghệ. Với niềm đam mê dành cho dữ liệu và các ngôn ngữ lập trình, mình đang phát triển theo lộ trình trở thành một Business Analyst chuyên nghiệp. Mục tiêu của mình không chỉ là đọc hiểu dữ liệu, mà còn là chuyển hóa những con số thành giải pháp thực tiễn tạo ra giá trị cho doanh nghiệp.
 
+---
+## 🌐Socials:
 [![Facebook](https://img.shields.io/badge/Facebook-%231877F2.svg?style=for-the-badge&logo=Facebook&logoColor=white)](https://www.facebook.com/tran.khanh.ngoc.103411/)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/tr%E1%BA%A7n-kh%C3%A1nh-ng%E1%BB%8Dc-453a701b0/)
 
 ---
-
 ## 💻 Technical Skills
 
 ![C++](https://img.shields.io/badge/c++-%2300599C.svg?style=for-the-badge&logo=c%2B%2B&logoColor=white)
