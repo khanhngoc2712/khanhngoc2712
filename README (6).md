@@ -269,25 +269,18 @@ Structured and publicly documented a **systematic Business Analyst self-learning
 
 ---
 
-## 📊 GitHub Stats
-
-<div align="center">
-
-![](https://github-readme-stats.vercel.app/api?username=khanhngoc2712&theme=tokyonight&hide_border=true&include_all_commits=true&count_private=true)
-&nbsp;
-![](https://nirzak-streak-stats.vercel.app/?user=khanhngoc2712&theme=tokyonight&hide_border=true)
-
-![](https://github-readme-stats.vercel.app/api/top-langs/?username=khanhngoc2712&theme=tokyonight&hide_border=true&include_all_commits=true&count_private=true&layout=compact)
-
-</div>
-
+## 📊 GitHub Stats:
+![](https://github-readme-stats.vercel.app/api?username=ngoc27122006-lang&theme=github_dark&hide_border=true&include_all_commits=true&count_private=true)<br/>
+![](https://nirzak-streak-stats.vercel.app/?user=ngoc27122006-lang&theme=github_dark&hide_border=true)<br/>
+![](https://github-readme-stats.vercel.app/api/top-langs/?username=ngoc27122006-lang&theme=github_dark&hide_border=true&include_all_commits=true&count_private=true&layout=compact)
 ---
+---
+## 🎯 Life Philosophy: 
 
-### ✍️ Random Dev Quote
+<p align="center">
+  <i>"It doesn't matter how slowly you go, as long as you don't stop."</i>
+</p>
 
-<div align="center">
-
-![](https://quotes-github-readme.vercel.app/api?type=horizontal&theme=tokyonight)
 
 </div>
 
@@ -436,7 +429,7 @@ Structured and publicly documented a **systematic Business Analyst self-learning
     font-size="11"
     fill="url(#sg)"
     text-anchor="middle"
-    letter-spacing="3">— © 2024 Trần Khánh Ngọc · Made with 💜 —</text>
+    letter-spacing="3">— © 2026 Trần Khánh Ngọc · Made with 💜 —</text>
 
   <!-- Bottom venom edge -->
   <rect x="0" y="157" width="900" height="3" fill="url(#vd)" opacity="0.6"/>
