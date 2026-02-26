@@ -67,11 +67,11 @@ Developed an interactive business intelligence dashboard to analyze company perf
   - Regional Performance  
 - Presented insights with strategic recommendations  
 
-**Impact:**  
+**🎯Impact:**  
 Turned raw operational data into actionable insights for data-driven business decisions.
 
-🔗 *Project File:* Power BI (.pbix)
-
+**🚀Business Performance Dashboard – Power BI**
+![Dashboard Preview](Screenshot%202026-02-26%20160358.png)
 ---
 
 ### 📈 Data Analysis with Python
