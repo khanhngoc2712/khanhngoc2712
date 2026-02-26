@@ -296,13 +296,13 @@ Structured and publicly documented a **systematic Business Analyst self-learning
 <div align="center">
 <table>
 <tr>
-<td align="center" width="33%"><img src="YOUR_PHOTO_1" width="100%" style="border-radius:12px"/><br/><sub><b>🌟 Sự kiện 1</b></sub></td>
-<td align="center" width="33%"><img src="YOUR_PHOTO_2" width="100%" style="border-radius:12px"/><br/><sub><b>🎉 Sự kiện 2</b></sub></td>
-<td align="center" width="33%"><img src="YOUR_PHOTO_3" width="100%" style="border-radius:12px"/><br/><sub><b>💡 Sự kiện 3</b></sub></td>
+<td align="center" width="33%"><img src="4.jpg" width="100%" style="border-radius:12px"/><br/><sub><b>🌟 Sự kiện 1</b></sub></td>
+<td align="center" width="33%"><img src="2.jpg" width="100%" style="border-radius:12px"/><br/><sub><b>🎉 Sự kiện 2</b></sub></td>
+<td align="center" width="33%"><img src="3.jpg" width="100%" style="border-radius:12px"/><br/><sub><b>💡 Sự kiện 3</b></sub></td>
 </tr>
 <tr>
-<td align="center" width="33%"><img src="YOUR_PHOTO_4" width="100%" style="border-radius:12px"/><br/><sub><b>🏆 Sự kiện 4</b></sub></td>
-<td align="center" width="33%"><img src="YOUR_PHOTO_5" width="100%" style="border-radius:12px"/><br/><sub><b>🔥 Sự kiện 5</b></sub></td>
+<td align="center" width="33%"><img src="1.jpg" width="100%" style="border-radius:12px"/><br/><sub><b>🏆 Sự kiện 4</b></sub></td>
+<td align="center" width="33%"><img src="5.jpg" width="100%" style="border-radius:12px"/><br/><sub><b>🔥 Sự kiện 5</b></sub></td>
 <td align="center" width="33%"><img src="YOUR_PHOTO_6" width="100%" style="border-radius:12px"/><br/><sub><b>✨ Sự kiện 6</b></sub></td>
 </tr>
 </table>
