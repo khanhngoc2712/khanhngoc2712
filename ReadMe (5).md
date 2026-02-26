@@ -3,7 +3,7 @@
 <tr>
 
 <!-- LEFT COLUMN -->
-<td width="25%" align="center" valign="top">
+<td width="28%" align="center" valign="top">
 
 <div style="background: linear-gradient(135deg,#e0f7fa,#f1f8ff); padding:25px; border-radius:25px;">
 
@@ -15,7 +15,7 @@
 <br><br>
 # 📬 Contact Me
 
-📧 **Email:** your-email@gmail.com  
+📧 **Email:** ngoc27122006@gmail.com  
 🌐 **Facebook:** [Trần Khánh Ngọc](https://facebook.com/tran.khanh.ngoc.103411)  
 💼 **LinkedIn:** [Trần Khánh Ngọc](https://linkedin.com/in/tr%E1%BA%A7n-kh%C3%A1nh-ng%E1%BB%8Dc-453a701b0/)  
 
@@ -71,6 +71,7 @@ Developed an interactive business intelligence dashboard to analyze company perf
 Turned raw operational data into actionable insights for data-driven business decisions.
 
 **🚀Business Performance Dashboard – Power BI**
+
 ![Dashboard Preview](Screenshot%202026-02-26%20160358.png)
 ---
 
@@ -107,13 +108,14 @@ Built and designed a personal portfolio website to showcase skills, projects, an
 - Integrated contact & social links  
 - Optimized content presentation  
 
-**Goal:**  
-Building a strong digital identity aligned with Business & Technology.
+**Goal:**  Building a strong digital identity aligned with Business & Technology.
+
+---
 ## 📊 GitHub Stats:
 ![](https://github-readme-stats.vercel.app/api?username=ngoc27122006-lang&theme=github_dark&hide_border=true&include_all_commits=true&count_private=true)<br/>
 ![](https://nirzak-streak-stats.vercel.app/?user=ngoc27122006-lang&theme=github_dark&hide_border=true)<br/>
 ![](https://github-readme-stats.vercel.app/api/top-langs/?username=ngoc27122006-lang&theme=github_dark&hide_border=true&include_all_commits=true&count_private=true&layout=compact)
-
+---
 ---
 ### 🎯 Life Philosophy 
 
