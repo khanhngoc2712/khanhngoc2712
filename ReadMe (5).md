@@ -7,8 +7,8 @@
 
 <div style="background: linear-gradient(135deg,#e0f7fa,#f1f8ff); padding:25px; border-radius:25px;">
 
-<img src="ni.jpg" 
-     width="180"
+<img src="port.png" 
+     width="300"
      style="border-radius:50%;
             border:5px solid white;
             box-shadow:0 15px 30px rgba(0,0,0,0.2);" />
