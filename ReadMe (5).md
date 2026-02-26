@@ -1,14 +1,18 @@
 
 <table>
 <tr>
-<td width="35%" align="center">
 
-<img src="Motivational%20Quotes%20Slow%20Living%20Watercolor%20Art.jpg" 
-     width="100%" 
-     style="border-radius:20px;" />
+<!-- LEFT COLUMN -->
+<td width="35%" align="center" valign="top">
 
+<div style="background: linear-gradient(135deg,#e0f7fa,#f1f8ff); padding:25px; border-radius:25px;">
+
+<img src="ni.jpg" 
+     width="180"
+     style="border-radius:50%;
+            border:5px solid white;
+            box-shadow:0 15px 30px rgba(0,0,0,0.2);" />
 <br><br>
-
 ### 📬 Contact Me
 
 📧 **Email:** your-email@gmail.com  
@@ -18,17 +22,18 @@
 </td>
 
 <td width="65%">
-# 💫 About Me
+
+**💫 About Me**
 
 Xin chào, mình là **Khánh Ngọc** ✨  
 
-Hiện tại, mình là sinh viên năm 2 ngành **Kinh doanh Quốc tế** tại Trường Đại học Ngoại thương.  
+Hiện tại, mình là sinh viên năm 2 ngành Kinh doanh Quốc tế tại Trường Đại học Ngoại thương.  
 Bên cạnh việc học tập, mình chủ động tham gia các hoạt động ngoại khóa và phong trào sinh viên.  
 
 Hiện mình đang đảm nhiệm vai trò **Phó ban Đối ngoại** tại *Social Business Creation Youth Community (SBCYC – FTU)*.
 
-Là một sinh viên kinh tế yêu thích lập trình, mình đặc biệt quan tâm đến sự giao thoa giữa **tư duy kinh doanh và công nghệ**.  
-Với niềm đam mê dành cho dữ liệu và các ngôn ngữ lập trình, mình đang phát triển theo lộ trình trở thành một **Business Analyst** chuyên nghiệp.
+Là một sinh viên kinh tế yêu thích lập trình, mình đặc biệt quan tâm đến sự giao thoa giữa tư duy kinh doanh và công nghệ.  
+Với niềm đam mê dành cho dữ liệu và các ngôn ngữ lập trình, mình đang phát triển theo lộ trình trở thành một Business Analyst chuyên nghiệp.
 
 Mục tiêu của mình không chỉ là đọc hiểu dữ liệu, mà còn là chuyển hóa những con số thành **giải pháp thực tiễn tạo ra giá trị cho doanh nghiệp**.
 
@@ -44,12 +49,14 @@ Mục tiêu của mình không chỉ là đọc hiểu dữ liệu, mà còn là
 ![](https://nirzak-streak-stats.vercel.app/?user=khanhngoc2712&theme=github_dark&hide_border=true)<br/>
 ![](https://github-readme-stats.vercel.app/api/top-langs/?username=khanhngoc2712&theme=github_dark&hide_border=true&include_all_commits=true&count_private=true&layout=compact)
 
-### ✍️ Quote
-" It doesn't matter how slowly you go, as long as you don't stop "
-<p align="center">
-  <img src="Motivational%20Quotes%20Slow%20Living%20Watercolor%20Art.jpg" width="500"/>
-</p>
----
-[![](https://visitcount.itsvg.in/api?id=khanhngoc2712&icon=0&color=3)](https://visitcount.itsvg.in)
+### ✍️ Quote  
 
-<!-- Proudly created with GPRM ( https://gprm.itsvg.in ) -->
+<p align="center">
+  <i>"It doesn't matter how slowly you go, as long as you don't stop."</i>
+</p>
+
+<p align="center">
+  <img src="./Motivational Quotes Slow Living Watercolor Art.jpg" width="500"/>
+</p>
+
+---
