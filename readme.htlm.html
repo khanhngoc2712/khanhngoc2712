@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Khánh Ngọc | Business Analyst Portfolio</title>
+
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+
+  <style>
+    :root{
+      --bg:#0f172a;
+      --card:#1e293b;
+      --accent:#38bdf8;
+      --text:#f1f5f9;
+      --sub:#94a3b8;
+    }
+
+    *{
+      margin:0;
+      padding:0;
+      box-sizing:border-box;
+      font-family:"Poppins",sans-serif;
+    }
+
+    body{
+      background:var(--bg);
+      color:var(--text);
+      scroll-behavior:smooth;
+    }
+
+    .container{
+      width:90%;
+      max-width:1100px;
+      margin:auto;
+    }
+
+    .section{
+      padding:90px 0;
+    }
+
+    .section-title{
+      font-size:2rem;
+      margin-bottom:40px;
+      text-align:center;
+      color:var(--accent);
+    }
+
+    nav{
+      position:fixed;
+      width:100%;
+      background:rgba(15,23,42,0.9);
+      padding:15px 0;
+      backdrop-filter:blur(10px);
+      z-index:1000;
+    }
+
+    nav .container{
+      display:flex;
+      justify-content:space-between;
+      align-items:center;
+    }
+
+    nav a{
+      color:var(--text);
+      text-decoration:none;
+      margin-left:20px;
+      font-weight:500;
+    }
+
+    nav a:hover{
+      color:var(--accent);
+    }
+
+    .hero{
+      height:100vh;
+      display:flex;
+      align-items:center;
+      text-align:center;
+    }
+
+    .hero h1{
+      font-size:3rem;
+    }
+
+    .hero p{
+      margin-top:15px;
+      color:var(--sub);
+    }
+
+    .about-content p{
+      margin-bottom:1rem;
+      line-height:1.8;
+      color:var(--sub);
+    }
+
+    .about-intro{
+      font-size:1.3rem;
+      font-weight:600;
+      color:var(--accent);
+    }
+
+    .projects-grid{
+      display:grid;
+      grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+      gap:20px;
+    }
+
+    .project-card{
+      background:var(--card);
+      padding:20px;
+      border-radius:12px;
+      transition:0.3s;
+    }
+
+    .project-card:hover{
+      transform:translateY(-5px);
+    }
+
+    .project-title{
+      font-weight:600;
+      margin-bottom:10px;
+      color:var(--accent);
+    }
+
+    button{
+      background:var(--accent);
+      border:none;
+      padding:10px 20px;
+      border-radius:8px;
+      cursor:pointer;
+      color:#000;
+      font-weight:600;
+      margin-top:20px;
+      display:block;
+      margin-left:auto;
+      margin-right:auto;
+    }
+
+    footer{
+      text-align:center;
+      padding:30px 0;
+      color:var(--sub);
+      border-top:1px solid #1e293b;
+    }
+
+    .reveal{
+      opacity:0;
+      transform:translateY(40px);
+      transition:all 0.8s ease;
+    }
+
+    .reveal.active{
+      opacity:1;
+      transform:translateY(0);
+    }
+  </style>
+</head>
+
+<body>
+
+<nav>
+  <div class="container">
+    <div><strong>Khánh Ngọc</strong></div>
+    <div>
+      <a href="#about">About</a>
+      <a href="#projects">Projects</a>
+      <a href="#contact">Contact</a>
+    </div>
+  </div>
+</nav>
+
+<section class="hero section">
+  <div class="container">
+    <h1>Khánh Ngọc</h1>
+    <p>Business Analyst in Progress | Business x Technology</p>
+  </div>
+</section>
+
+<section id="about" class="section reveal">
+  <div class="container">
+    <h2 class="section-title">About Me</h2>
+
+    <div class="about-content">
+      <p class="about-intro">
+        Xin chào, mình là Khánh Ngọc ✨
+      </p>
+
+      <p>
+        Mình là sinh viên năm 2 ngành <strong>Kinh doanh Quốc tế</strong> tại Đại học Ngoại thương.
+        Hiện đang là <strong>Phó ban Đối ngoại</strong> tại SBCYC – FTU.
+      </p>
+
+      <p>
+        Mình yêu thích sự giao thoa giữa kinh doanh và công nghệ,
+        định hướng phát triển theo con đường <strong>Business Analyst</strong>.
+      </p>
+
+      <p>
+        Mục tiêu của mình là chuyển hóa dữ liệu thành insight chiến lược
+        và xây dựng giải pháp thực tiễn cho doanh nghiệp.
+      </p>
+    </div>
+  </div>
+</section>
+
+<section id="projects" class="section reveal">
+  <div class="container">
+    <h2 class="section-title">Projects</h2>
+
+    <div class="projects-grid" id="projectsGrid">
+      <div class="project-card">
+        <div class="project-title">Sales Data Analysis</div>
+        <p>Phân tích dữ liệu bán hàng bằng Excel & Python.</p>
+      </div>
+
+      <div class="project-card">
+        <div class="project-title">Market Research</div>
+        <p>Nghiên cứu thị trường và xây dựng chiến lược.</p>
+      </div>
+    </div>
+
+    <button onclick="addProject()">+ Thêm Project</button>
+  </div>
+</section>
+
+<section id="contact" class="section reveal">
+  <div class="container">
+    <h2 class="section-title">Contact</h2>
+    <p style="text-align:center;color:var(--sub);">
+      Email: your-email@gmail.com
+    </p>
+  </div>
+</section>
+
+<footer>
+  © 2026 Khánh Ngọc | Business Analyst Portfolio
+</footer>
+
+<script>
+  const observer = new IntersectionObserver(entries=>{
+    entries.forEach(entry=>{
+      if(entry.isIntersecting){
+        entry.target.classList.add("active");
+      }
+    });
+  },{threshold:0.2});
+
+  document.querySelectorAll(".reveal").forEach(el=>{
+    observer.observe(el);
+  });
+
+  function addProject(){
+    const grid = document.getElementById("projectsGrid");
+    const card = document.createElement("div");
+    card.className="project-card";
+    card.innerHTML=`
+      <div class="project-title">New Project</div>
+      <p contenteditable="true">Mô tả dự án...</p>
+    `;
+    grid.appendChild(card);
+  }
+</script>
+
+</body>
+</html>
