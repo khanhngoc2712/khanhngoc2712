@@ -296,14 +296,14 @@ Structured and publicly documented a **systematic Business Analyst self-learning
 <div align="center">
 <table>
 <tr>
-<td align="center" width="33%"><img src="4.jpg" width="100%" style="border-radius:12px"/><br/><sub><b>🌟 Sự kiện 1</b></sub></td>
-<td align="center" width="33%"><img src="2.jpg" width="100%" style="border-radius:12px"/><br/><sub><b>🎉 Sự kiện 2</b></sub></td>
-<td align="center" width="33%"><img src="3.jpg" width="100%" style="border-radius:12px"/><br/><sub><b>💡 Sự kiện 3</b></sub></td>
+<td align="center" width="33%"><img src="4.jpg" width="100%" style="border-radius:12px"/><br/><sub><b>🌟 </b></sub></td>
+<td align="center" width="33%"><img src="2.jpg" width="100%" style="border-radius:12px"/><br/><sub><b>🎉 </b></sub></td>
+<td align="center" width="33%"><img src="3.jpg" width="100%" style="border-radius:12px"/><br/><sub><b>💡 </b></sub></td>
 </tr>
 <tr>
-<td align="center" width="33%"><img src="1.jpg" width="100%" style="border-radius:12px"/><br/><sub><b>🏆 Sự kiện 4</b></sub></td>
-<td align="center" width="33%"><img src="5.jpg" width="100%" style="border-radius:12px"/><br/><sub><b>🔥 Sự kiện 5</b></sub></td>
-<td align="center" width="33%"><img src="YOUR_PHOTO_6" width="100%" style="border-radius:12px"/><br/><sub><b>✨ Sự kiện 6</b></sub></td>
+<td align="center" width="33%"><img src="1.jpg" width="100%" style="border-radius:12px"/><br/><sub><b>🏆 </b></sub></td>
+<td align="center" width="33%"><img src="5.jpg" width="100%" style="border-radius:12px"/><br/><sub><b>🔥 </b></sub></td>
+<td align="center" width="33%"><img src="6.jpg" width="100%" style="border-radius:12px"/><br/><sub><b>✨ </b></sub></td>
 </tr>
 </table>
 </div>
@@ -313,7 +313,7 @@ Structured and publicly documented a **systematic Business Analyst self-learning
 <!-- ══════════════ FOOTER ══════════════ -->
 <div align="center">
 
-<img src="./tải xuống (12).jpg" width="480" style="border-radius:16px; opacity:0.9"/>
+<img src="./tải xuống (12).jpg" width="900" style="border-radius:16px; opacity:0.9"/>
 
 <br/><br/>
 
@@ -421,7 +421,7 @@ Structured and publicly documented a **systematic Business Analyst self-learning
     fill="url(#tg)"
     text-anchor="middle"
     filter="url(#glow4)"
-    letter-spacing="3">Nothing is impossible!</text>
+    letter-spacing="3"> ***Nothing is impossible!***
 
   <!-- Sub line -->
   <text x="450" y="125"
