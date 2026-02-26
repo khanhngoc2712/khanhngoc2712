@@ -1,5 +1,5 @@
 # 💫 About Me:
-Email: ngoc27122006@gmail.com<br>Education: Sinh viên năm 2, ngành Kinh doanh quốc tế - Trường Đại học Ngoại thương<br>Hoạt động ngoại khóa: Phó Ban Đối ngoại - Social Business Creation Youth Community (SBCYC - FTU)<br>
+<br>Xin chào, mình là Khánh Ngọc!<br> Hiện tại, mình đang là sinh viên năm 2, ngành Kinh doanh quốc tế, Trường Đại học Ngoại thương. <br> Ngoài việc học mình tích cự chủ động tham gia các hoạt động ngoại khóa, phong trào sinh viên và hiện mình đang là Phó ban Đối ngoại tại Social Business Creation Youth Community (SBCYC-FTU). <br> Là một sinh viên kinh tế yêu thích lập trình mình luôn bị thu hút bởi sự giao thoa giữa tư duy kinh tế và sức mạnh của công nghệ. Với niềm đam mê đặc biệt dành cho các con số và ngôn ngữ lập trình, mình đang tập trung phát triển bản thân trên lộ trình trở thành một Business Analyst chuyên nghiệp. Mình không chỉ muốn nhìn thấy những gì dữ liệu đang nói, mà còn muốn dùng công nghệ để biến những con số đó thành giải pháp thực tiễn cho doanh nghiệp. <br>
 
 
 ## 🌐 Socials:
@@ -12,8 +12,8 @@ Email: ngoc27122006@gmail.com<br>Education: Sinh viên năm 2, ngành Kinh doanh
 ![](https://nirzak-streak-stats.vercel.app/?user=khanhngoc2712&theme=github_dark&hide_border=true)<br/>
 ![](https://github-readme-stats.vercel.app/api/top-langs/?username=khanhngoc2712&theme=github_dark&hide_border=true&include_all_commits=true&count_private=true&layout=compact)
 
-### ✍️ Random Dev Quote
-![](https://quotes-github-readme.vercel.app/api?type=horizontal&theme=gruvbox)
+### ✍️ Quote
+" It doesn't matter how slowly you go, as long as you don't stop "
 
 ---
 [![](https://visitcount.itsvg.in/api?id=khanhngoc2712&icon=0&color=3)](https://visitcount.itsvg.in)
